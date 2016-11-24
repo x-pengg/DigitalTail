@@ -1,7 +1,7 @@
 wx:
-  appid: wx91fdbebaeda1f93c
-  appsecret: 6d22cb08de41e9046321032e9dc28d79
-  token: weixin
+  appid:
+  appsecret:
+  token:
   aeskey:
 spring:
   data:
