@@ -1,0 +1,23 @@
+# IntelliJ
+.idea
+*.iml
+out
+logs
+target
+*.log
+generatorConfig.xml
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node
+node_modules/
+dist/
+npm-debug.log

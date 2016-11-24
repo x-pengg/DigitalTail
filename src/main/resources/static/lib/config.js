@@ -1,0 +1,68 @@
+require.config({
+    // urlArgs:'v=1.6.3',
+    urlArgs:'v='+new Date().getTime(),
+    paths:{
+        'jquery':'./lib/jquery-1.11.3.min',
+        'bootstrap':'./lib/bootstrap',
+        'summernote':'./lib/summernote',
+        'datetimepicker':'./lib/bootstrap-datetimepicker',
+        'highcharts':'./lib/highcharts',
+        'select2':'./lib/select2.min',
+        'pnotify':'./lib/pnotify',
+        'notification':'./lib/notification',
+        'http':'./lib/http',
+        'core':'./lib/core',
+        'vue':'./lib/vue.min',
+        'utility':'./lib/utility',
+        'nanoscroller':'./lib/jquery.nanoscroller.min',
+        'smoothscroll':'./lib/jquery.smooth-scroll.min',
+        'magnificPopup':'./lib/jquery.magnific-popup',
+        'common':'./lib/common',
+        'validate':'./lib/validate',
+        'jquerySelect':'./lib/jquery.select',
+        'dateFormat':'./lib/date-format',
+        'timeout' : './lib/bs-timeout'
+    },
+
+    shim:{
+        'jquery':{
+            exports: '$'
+        },
+        'bootstrap':{
+            deps:['jquery']
+        },
+        'summernote':{
+            deps:['jquery','bootstrap']
+        },
+        'datetimepicker':{
+            deps:['jquery']
+        },
+        'highcharts':{
+            deps:['jquery']
+        },
+        'nanoscroller':{
+            deps:['jquery']
+        },
+        'smoothscroll':{
+            deps:['jquery']
+        },
+        'utility':{
+            deps:['jquery']
+        },
+        'common':{
+            deps:['jquery']
+        },
+        'magnificPopup':{
+            deps:['jquery']
+        },
+        'validate':{
+            deps:['jquery']
+        },
+        'jquerySelect':{
+            deps:['jquery']
+        },
+        'timeout':{
+            deps:['jquery']
+        }
+    }
+})
